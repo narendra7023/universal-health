@@ -10,7 +10,7 @@
     align-items: center;  
     width: 100%;
 }
-.logo, .phone{
+.logo,.phone{
     display: flex;
     align-items: center;
     flex-shrink: 0;
