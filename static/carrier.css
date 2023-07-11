@@ -3,16 +3,19 @@
     padding: 0;
     margin: 0;
 }
+
 html{
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
   }
+
 #carrier{
     height: 75vh;
     /* border: 1px solid red; */
     
 }
+
 .carrier-parent{
     display: flex;
     /* border: 1px solid green; */
@@ -20,11 +23,13 @@ html{
     align-items: center;
     height: 100%;
 }
+
 .carrier-child{
     /* border: 1px solid blue; */
     width: 80%;
     height: 100%;
 }
+
 .text{
     height: 100%;
     display: flex;
@@ -35,17 +40,20 @@ html{
     background: linear-gradient(rgba(255, 255, 255, 1) 31%, rgba(255, 241, 225, 1) 90%);
     background-blend-mode:lighten;
 }
+
 .main-text{
     /* border: 1px solid yellow; */
     font-size: 2rem;
     font-family: 'Montserrat', 'sans-serif';  
     font-weight: 700;  
 }
+
 .sub-text{
     margin-top: 10px;
     font-family: 'Montserrat', 'sans-serif';
     font-weight: 100;
 }
+
 .appointment-button{
     border: 0px;
     background-color: rgba(0, 71, 171, 1);
